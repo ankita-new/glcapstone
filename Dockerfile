@@ -1,7 +1,7 @@
 FROM ubuntu:18.04
 MAINTAINER Gowerthanan Ravi
 RUN apt-get update -y
-RUN apt-get install apache2
+RUN apt-get install apache2 -y
 #apt-get install -y python-pip python-dev
 
 EXPOSE 80
